@@ -1,0 +1,23 @@
+{
+  "name": "lambda-chart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "nodemon -L src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "chartjs-plugin-annotation": "^2.2.1",
+    "chartjs-plugin-watermark": "^2.0.2",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "puppeteer": "^23.6.1"
+  }
+}
